@@ -14,7 +14,7 @@ This mirrors how real CI/CD pipelines block a release or trigger rollback when v
 
 ---
 
-## What this demonstrates (interview-ready)
+## What this demonstrates 
 
 After a release, it’s possible for the service to be “up” but still unhealthy (stuck transactions, failure spikes, etc.).
 This project simulates a **release gate** that checks database integrity signals after deployment.
